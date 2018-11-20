@@ -25,13 +25,13 @@ const ProductSchema = new mongoose.Schema({
   {
     type: Date,
     required: true,
-    default: 'MFD'
+    //default: 'Date'
   },
   EXD:
   {
     type: Date,
     required: true,
-   default: 'EXD'
+   //default: 'Date'
   }
 
 })
