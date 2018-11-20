@@ -1132,3 +1132,218 @@ ReferenceError: products is not defined
 2018-11-20T22:17:17.749Z - debug: GET /product
 2018-11-20T22:17:37.663Z - debug: GET /product
 2018-11-20T22:17:37.786Z - debug: GET /images/favicon-32x32.png
+2018-11-20T22:25:34.899Z - debug: GET /
+2018-11-20T22:25:38.046Z - debug: GET /product
+2018-11-20T22:25:41.150Z - debug: GET /product/create
+2018-11-20T22:25:41.155Z - info: Handling GET /create[object Object]
+2018-11-20T22:25:41.172Z - debug: {"productKey":"product","description":"description","unitPrice":9.99,"MFD":"11/13/2018","EXD":"Best before 2 months from MFD"}
+2018-11-20T22:26:03.075Z - debug: POST /product/save
+2018-11-20T22:26:03.085Z - info: Handling POST [object Object]
+2018-11-20T22:26:03.086Z - debug: {"_id":"6","productKey":"pen","Decription":"used to write","unitPrice":"9.99","MFD":"11/13/2018","EXD":"no expiry"}
+2018-11-20T22:26:03.088Z - info: NEW ID 6
+2018-11-20T22:26:03.101Z - info: SAVING NEW product {"productKey":"pen","unitPrice":9,"MFD":"11/13/2018","EXD":"Best before 2 months from MFD","_id":6}
+2018-11-20T22:26:03.110Z - debug: GET /product
+2018-11-20T22:30:07.092Z - debug: GET /product/edit/6
+2018-11-20T22:30:07.098Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T22:30:07.101Z - info: RETURNING VIEW FOR{"productKey":"pen","unitPrice":9,"MFD":"11/13/2018","EXD":"Best before 2 months from MFD","_id":6}
+2018-11-20T22:30:21.721Z - debug: POST /product/save/6
+2018-11-20T22:30:21.730Z - info: Handling SAVE request [object Object]
+2018-11-20T22:30:21.735Z - info: Handling SAVING ID=6
+2018-11-20T22:30:21.744Z - info: ORIGINAL VALUES {"productKey":"pen","unitPrice":9,"MFD":"11/13/2018","EXD":"Best before 2 months from MFD","_id":6}
+2018-11-20T22:30:21.750Z - info: UPDATED VALUES: {"productKey":"pen","Decription":"used to write","unitPrice":"9","MFD":"11/13/2018","EXD":"no expiry"}
+2018-11-20T22:30:21.753Z - info: SAVING UPDATED product {"productKey":"pen","unitPrice":9,"MFD":"11/13/2018","EXD":"Best before 2 months from MFD","_id":6}
+2018-11-20T22:30:21.790Z - debug: GET /product
+2018-11-20T22:32:48.521Z - debug: GET /product
+2018-11-20T22:32:48.661Z - debug: GET /images/favicon-32x32.png
+2018-11-20T22:32:52.410Z - debug: GET /product/delete/6
+2018-11-20T22:32:52.413Z - info: Handling GET /delete/:id [object Object]
+2018-11-20T22:32:52.414Z - info: RETURNING VIEW FOR {"productKey":"pen","unitPrice":9,"MFD":"11/13/2018","EXD":"Best before 2 months from MFD","_id":6}
+2018-11-20T22:32:54.627Z - debug: POST /product/delete/6
+2018-11-20T22:32:54.631Z - info: Handling DELETE request [object Object]
+2018-11-20T22:32:54.633Z - info: Handling REMOVING ID=6
+2018-11-20T22:32:54.647Z - debug: GET /product
+2018-11-20T22:32:59.141Z - debug: GET /product
+2018-11-20T22:32:59.256Z - debug: GET /images/favicon-32x32.png
+2018-11-20T22:33:01.370Z - debug: GET /product/create
+2018-11-20T22:33:01.377Z - info: Handling GET /create[object Object]
+2018-11-20T22:33:01.382Z - debug: {"productKey":"product","description":"description","unitPrice":9.99,"MFD":"11/13/2018","EXD":"Best before 2 months from MFD"}
+2018-11-20T22:33:26.110Z - debug: POST /product/save
+2018-11-20T22:33:26.128Z - info: Handling POST [object Object]
+2018-11-20T22:33:26.128Z - debug: {"_id":"6","productKey":"pen","Decription":"used to write","unitPrice":"900","MFD":"11/13/2018","EXD":"no expiry"}
+2018-11-20T22:33:26.129Z - info: NEW ID 6
+2018-11-20T22:33:26.129Z - info: SAVING NEW product {"productKey":"pen","unitPrice":900,"MFD":"11/13/2018","EXD":"Best before 2 months from MFD","_id":6}
+2018-11-20T22:33:26.133Z - debug: GET /product
+2018-11-20T22:39:34.134Z - info: Environment variables loaded.
+2018-11-20T22:39:34.143Z - debug: START routing
+2018-11-20T22:39:34.168Z - debug: END routing
+2018-11-20T22:39:34.168Z - info: Loaded routing.
+2018-11-20T22:39:34.195Z - info: START seeder.
+2018-11-20T22:39:34.198Z - debug: 5 products seeded
+2018-11-20T22:39:34.200Z - debug: 4 orders seeded
+2018-11-20T22:39:34.201Z - info: END Seeder. Sample data read and verified.
+2018-11-20T22:39:47.413Z - debug: GET /
+2018-11-20T22:39:51.248Z - debug: GET /product
+2018-11-20T22:42:19.301Z - info: Environment variables loaded.
+2018-11-20T22:42:19.311Z - debug: START routing
+2018-11-20T22:42:19.341Z - debug: END routing
+2018-11-20T22:42:19.341Z - info: Loaded routing.
+2018-11-20T22:42:19.371Z - info: START seeder.
+2018-11-20T22:42:19.375Z - debug: 5 products seeded
+2018-11-20T22:42:19.377Z - debug: 4 orders seeded
+2018-11-20T22:42:19.377Z - info: END Seeder. Sample data read and verified.
+2018-11-20T22:42:31.796Z - debug: GET /
+2018-11-20T22:42:35.139Z - debug: GET /product
+2018-11-20T22:42:37.250Z - debug: GET /product/create
+2018-11-20T22:42:37.255Z - info: Handling GET /create[object Object]
+2018-11-20T22:42:37.270Z - debug: {"productKey":"product","description":"description","unitPrice":9.99,"MFD":"11/13/2018","EXD":"Best before 2 months from MFD"}
+2018-11-20T22:43:09.549Z - debug: POST /product/save
+2018-11-20T22:43:09.627Z - info: Handling POST [object Object]
+2018-11-20T22:43:09.627Z - debug: {"_id":"6","productKey":"pen","description":"used to","unitPrice":"8","MFD":"10/6/2098","EXD":"no"}
+2018-11-20T22:43:09.627Z - info: NEW ID 6
+2018-11-20T22:43:09.634Z - info: SAVING NEW product {"productKey":"pen","description":"used to","unitPrice":8,"MFD":"11/13/2018","EXD":"Best before 2 months from MFD","_id":6}
+2018-11-20T22:43:09.643Z - debug: GET /product
+2018-11-20T22:43:34.848Z - debug: GET /product/edit/6
+2018-11-20T22:43:34.852Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T22:43:34.858Z - info: RETURNING VIEW FOR{"productKey":"pen","description":"used to","unitPrice":8,"MFD":"11/13/2018","EXD":"Best before 2 months from MFD","_id":6}
+2018-11-20T22:43:46.349Z - debug: POST /product/save/6
+2018-11-20T22:43:46.363Z - info: Handling SAVE request [object Object]
+2018-11-20T22:43:46.364Z - info: Handling SAVING ID=6
+2018-11-20T22:43:46.369Z - info: ORIGINAL VALUES {"productKey":"pen","description":"used to","unitPrice":8,"MFD":"11/13/2018","EXD":"Best before 2 months from MFD","_id":6}
+2018-11-20T22:43:46.370Z - info: UPDATED VALUES: {"productKey":"pen","description":"used to","unitPrice":"8","MFD":"11/13/2018","EXD":"Best before 2 months from MFD"}
+2018-11-20T22:43:46.374Z - info: SAVING UPDATED product {"productKey":"pen","description":"used to","unitPrice":8,"MFD":"11/13/2018","EXD":"Best before 2 months from MFD","_id":6}
+2018-11-20T22:43:46.386Z - debug: GET /product
+2018-11-20T22:43:59.260Z - debug: GET /product/edit/6
+2018-11-20T22:43:59.263Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T22:43:59.266Z - info: RETURNING VIEW FOR{"productKey":"pen","description":"used to","unitPrice":8,"MFD":"11/13/2018","EXD":"Best before 2 months from MFD","_id":6}
+2018-11-20T22:44:15.565Z - debug: POST /product/save/6
+2018-11-20T22:44:15.570Z - info: Handling SAVE request [object Object]
+2018-11-20T22:44:15.572Z - info: Handling SAVING ID=6
+2018-11-20T22:44:15.574Z - info: ORIGINAL VALUES {"productKey":"pen","description":"used to","unitPrice":8,"MFD":"11/13/2018","EXD":"Best before 2 months from MFD","_id":6}
+2018-11-20T22:44:15.575Z - info: UPDATED VALUES: {"productKey":"pen","description":"used to","unitPrice":"8","MFD":"11/13/2018","EXD":"no"}
+2018-11-20T22:44:15.577Z - info: SAVING UPDATED product {"productKey":"pen","description":"used to","unitPrice":8,"MFD":"11/13/2018","EXD":"Best before 2 months from MFD","_id":6}
+2018-11-20T22:44:15.583Z - debug: GET /product
+2018-11-20T22:45:09.298Z - info: Environment variables loaded.
+2018-11-20T22:45:09.306Z - debug: START routing
+2018-11-20T22:45:09.332Z - debug: END routing
+2018-11-20T22:45:09.332Z - info: Loaded routing.
+2018-11-20T22:45:09.360Z - info: START seeder.
+2018-11-20T22:45:09.364Z - debug: 5 products seeded
+2018-11-20T22:45:09.366Z - debug: 4 orders seeded
+2018-11-20T22:45:09.366Z - info: END Seeder. Sample data read and verified.
+2018-11-20T22:45:20.961Z - debug: GET /
+2018-11-20T22:45:24.236Z - debug: GET /product
+2018-11-20T22:45:29.823Z - debug: GET /product/edit/1
+2018-11-20T22:45:29.828Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T22:45:29.831Z - info: RETURNING VIEW FOR{"_id":1,"productKey":"pendrive","description":"place to store memory or data","unitPrice":90,"MFD":"11/13/2018","EXD":"NO EXPIRY"}
+2018-11-20T22:45:49.569Z - debug: POST /product/save/1
+2018-11-20T22:45:49.646Z - info: Handling SAVE request [object Object]
+2018-11-20T22:45:49.646Z - info: Handling SAVING ID=1
+2018-11-20T22:45:49.647Z - info: ORIGINAL VALUES {"_id":1,"productKey":"pendrive","description":"place to store memory or data","unitPrice":90,"MFD":"11/13/2018","EXD":"NO EXPIRY"}
+2018-11-20T22:45:49.648Z - info: UPDATED VALUES: {"productKey":"pendrive","description":"used to","unitPrice":"90","MFD":"11/07/9090","EXD":"NO "}
+2018-11-20T22:45:49.648Z - info: SAVING UPDATED product {"_id":1,"productKey":"pendrive","description":"used to","unitPrice":90,"MFD":"11/13/2018","EXD":"NO EXPIRY"}
+2018-11-20T22:45:49.656Z - debug: GET /product
+2018-11-20T22:47:12.790Z - info: Environment variables loaded.
+2018-11-20T22:47:12.801Z - debug: START routing
+2018-11-20T22:47:12.831Z - debug: END routing
+2018-11-20T22:47:12.831Z - info: Loaded routing.
+2018-11-20T22:47:12.864Z - info: START seeder.
+2018-11-20T22:47:12.869Z - debug: 5 products seeded
+2018-11-20T22:47:12.875Z - debug: 4 orders seeded
+2018-11-20T22:47:12.875Z - info: END Seeder. Sample data read and verified.
+2018-11-20T22:47:22.001Z - debug: GET /
+2018-11-20T22:47:26.155Z - debug: GET /product
+2018-11-20T22:47:28.568Z - debug: GET /product/edit/1
+2018-11-20T22:47:28.574Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T22:47:28.575Z - info: RETURNING VIEW FOR{"_id":1,"productKey":"pendrive","description":"place to store memory or data","unitPrice":90,"MFD":"11/13/2018","EXD":"NO EXPIRY"}
+2018-11-20T22:47:48.725Z - debug: POST /product/save/1
+2018-11-20T22:47:48.808Z - info: Handling SAVE request [object Object]
+2018-11-20T22:47:48.808Z - info: Handling SAVING ID=1
+2018-11-20T22:47:48.810Z - info: ORIGINAL VALUES {"_id":1,"productKey":"pendrive","description":"place to store memory or data","unitPrice":90,"MFD":"11/13/2018","EXD":"NO EXPIRY"}
+2018-11-20T22:47:48.811Z - info: UPDATED VALUES: {"productKey":"pendrive","description":"used to","unitPrice":"9999","MFD":"9/11/2018","EXD":"NO "}
+2018-11-20T22:47:48.811Z - info: SAVING UPDATED product {"_id":1,"productKey":"pendrive","description":"used to","unitPrice":9999,"MFD":"11/13/2018","EXD":"NO EXPIRY"}
+2018-11-20T22:47:48.828Z - debug: GET /product
+2018-11-20T22:50:54.091Z - debug: GET /product/edit/1
+2018-11-20T22:50:54.094Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T22:50:54.096Z - info: RETURNING VIEW FOR{"_id":1,"productKey":"pendrive","description":"used to","unitPrice":9999,"MFD":"11/13/2018","EXD":"NO EXPIRY"}
+2018-11-20T22:51:11.537Z - debug: GET /product?
+2018-11-20T22:53:23.951Z - info: Environment variables loaded.
+2018-11-20T22:53:23.960Z - debug: START routing
+2018-11-20T22:53:23.985Z - debug: END routing
+2018-11-20T22:53:23.985Z - info: Loaded routing.
+2018-11-20T22:53:24.020Z - info: START seeder.
+2018-11-20T22:53:24.026Z - debug: 5 products seeded
+2018-11-20T22:53:24.029Z - debug: 4 orders seeded
+2018-11-20T22:53:24.029Z - info: END Seeder. Sample data read and verified.
+2018-11-20T22:54:33.249Z - info: Environment variables loaded.
+2018-11-20T22:54:33.258Z - debug: START routing
+2018-11-20T22:54:33.283Z - debug: END routing
+2018-11-20T22:54:33.283Z - info: Loaded routing.
+2018-11-20T22:54:33.326Z - info: START seeder.
+2018-11-20T22:54:33.331Z - debug: 5 products seeded
+2018-11-20T22:54:33.334Z - debug: 4 orders seeded
+2018-11-20T22:54:33.334Z - info: END Seeder. Sample data read and verified.
+2018-11-20T22:54:45.632Z - debug: GET /
+2018-11-20T22:54:49.044Z - debug: GET /product
+2018-11-20T22:54:51.492Z - debug: GET /product/edit/1
+2018-11-20T22:54:51.499Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T22:54:51.503Z - info: RETURNING VIEW FOR{"_id":1,"productKey":"pendrive","description":"place to store memory or data","unitPrice":90,"MFD":"11/13/2018","EXD":"NO EXPIRY"}
+2018-11-20T22:55:42.605Z - debug: POST /product/save/1
+2018-11-20T22:55:42.688Z - info: Handling SAVE request [object Object]
+2018-11-20T22:55:42.688Z - info: Handling SAVING ID=1
+2018-11-20T22:55:42.689Z - info: ORIGINAL VALUES {"_id":1,"productKey":"pendrive","description":"place to store memory or data","unitPrice":90,"MFD":"11/13/2018","EXD":"NO EXPIRY"}
+2018-11-20T22:55:42.689Z - info: UPDATED VALUES: {"productKey":"pen","description":"used to write","unitPrice":"9999","MFD":"2018-11-17","EXD":"2018-11-29"}
+2018-11-20T22:55:42.690Z - info: SAVING UPDATED product {"_id":1,"productKey":"pen","description":"used to write","unitPrice":9999,"MFD":"11/13/2018","EXD":"NO EXPIRY"}
+2018-11-20T22:55:42.697Z - debug: GET /product
+2018-11-20T22:56:15.873Z - debug: GET /product/edit/1
+2018-11-20T22:56:15.876Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T22:56:15.877Z - info: RETURNING VIEW FOR{"_id":1,"productKey":"pen","description":"used to write","unitPrice":9999,"MFD":"11/13/2018","EXD":"NO EXPIRY"}
+2018-11-20T22:56:42.322Z - debug: POST /product/save/1
+2018-11-20T22:56:42.337Z - info: Handling SAVE request [object Object]
+2018-11-20T22:56:42.338Z - info: Handling SAVING ID=1
+2018-11-20T22:56:42.341Z - info: ORIGINAL VALUES {"_id":1,"productKey":"pen","description":"used to write","unitPrice":9999,"MFD":"11/13/2018","EXD":"NO EXPIRY"}
+2018-11-20T22:56:42.342Z - info: UPDATED VALUES: {"productKey":"pen","description":"used to write","unitPrice":"99999999","MFD":"1996-08-12","EXD":"1998-12-12"}
+2018-11-20T22:56:42.344Z - info: SAVING UPDATED product {"_id":1,"productKey":"pen","description":"used to write","unitPrice":99999999,"MFD":"11/13/2018","EXD":"NO EXPIRY"}
+2018-11-20T22:56:42.351Z - debug: GET /product
+2018-11-20T22:58:23.705Z - info: Environment variables loaded.
+2018-11-20T22:58:23.715Z - debug: START routing
+2018-11-20T22:58:23.743Z - debug: END routing
+2018-11-20T22:58:23.743Z - info: Loaded routing.
+2018-11-20T22:58:23.776Z - info: START seeder.
+2018-11-20T22:58:23.781Z - debug: 5 products seeded
+2018-11-20T22:58:23.783Z - debug: 4 orders seeded
+2018-11-20T22:58:23.783Z - info: END Seeder. Sample data read and verified.
+2018-11-20T22:58:37.285Z - debug: GET /
+2018-11-20T22:58:59.305Z - debug: GET /product
+2018-11-20T22:59:01.312Z - debug: GET /product/edit/1
+2018-11-20T22:59:01.315Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T22:59:01.321Z - info: RETURNING VIEW FOR{"_id":1,"productKey":"pendrive","description":"place to store memory or data","unitPrice":90,"MFD":"11/13/2018","EXD":"NO EXPIRY"}
+2018-11-20T22:59:35.773Z - debug: POST /product/save/1
+2018-11-20T22:59:35.828Z - info: Handling SAVE request [object Object]
+2018-11-20T22:59:35.829Z - info: Handling SAVING ID=1
+2018-11-20T22:59:35.829Z - info: ORIGINAL VALUES {"_id":1,"productKey":"pendrive","description":"place to store memory or data","unitPrice":90,"MFD":"11/13/2018","EXD":"NO EXPIRY"}
+2018-11-20T22:59:35.830Z - info: UPDATED VALUES: {"productKey":"pen","description":"used to write","unitPrice":"99999","MFD":"2018-11-08","EXD":"2018-12-31"}
+2018-11-20T22:59:35.831Z - info: SAVING UPDATED product {"_id":1,"productKey":"pen","description":"used to write","unitPrice":99999,"MFD":"11/13/2018","EXD":"NO EXPIRY"}
+2018-11-20T22:59:35.839Z - debug: GET /product
+2018-11-20T23:00:38.872Z - info: Environment variables loaded.
+2018-11-20T23:00:38.881Z - debug: START routing
+2018-11-20T23:00:38.906Z - debug: END routing
+2018-11-20T23:00:38.906Z - info: Loaded routing.
+2018-11-20T23:00:38.933Z - info: START seeder.
+2018-11-20T23:00:38.937Z - debug: 5 products seeded
+2018-11-20T23:00:38.938Z - debug: 4 orders seeded
+2018-11-20T23:00:38.938Z - info: END Seeder. Sample data read and verified.
+2018-11-20T23:00:48.977Z - debug: GET /
+2018-11-20T23:00:52.388Z - debug: GET /product
+2018-11-20T23:00:54.281Z - debug: GET /product/edit/1
+2018-11-20T23:00:54.283Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T23:00:54.285Z - info: RETURNING VIEW FOR{"_id":1,"productKey":"pendrive","description":"place to store memory or data","unitPrice":90,"MFD":"11/13/2018","EXD":"NO EXPIRY"}
+2018-11-20T23:01:25.557Z - debug: POST /product/save/1
+2018-11-20T23:01:25.640Z - info: Handling SAVE request [object Object]
+2018-11-20T23:01:25.645Z - info: Handling SAVING ID=1
+2018-11-20T23:01:25.646Z - info: ORIGINAL VALUES {"_id":1,"productKey":"pendrive","description":"place to store memory or data","unitPrice":90,"MFD":"11/13/2018","EXD":"NO EXPIRY"}
+2018-11-20T23:01:25.646Z - info: UPDATED VALUES: {"productKey":"pen","description":"used to write","unitPrice":"90","MFD":"2018-11-01","EXD":"2018-12-31"}
+2018-11-20T23:01:25.647Z - info: SAVING UPDATED product {"_id":1,"productKey":"pen","description":"used to write","unitPrice":90,"MFD":"11/13/2018","EXD":"NO EXPIRY"}
+2018-11-20T23:01:25.660Z - debug: GET /product
+2018-11-20T23:03:08.536Z - debug: GET /product/edit/1
+2018-11-20T23:03:08.540Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T23:03:08.542Z - info: RETURNING VIEW FOR{"_id":1,"productKey":"pen","description":"used to write","unitPrice":90,"MFD":"11/13/2018","EXD":"NO EXPIRY"}
