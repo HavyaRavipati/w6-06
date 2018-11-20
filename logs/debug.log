@@ -1347,3 +1347,52 @@ ReferenceError: products is not defined
 2018-11-20T23:03:08.536Z - debug: GET /product/edit/1
 2018-11-20T23:03:08.540Z - info: Handling GET /edit/:id [object Object]
 2018-11-20T23:03:08.542Z - info: RETURNING VIEW FOR{"_id":1,"productKey":"pen","description":"used to write","unitPrice":90,"MFD":"11/13/2018","EXD":"NO EXPIRY"}
+2018-11-20T23:34:20.157Z - info: Environment variables loaded.
+2018-11-20T23:34:20.166Z - debug: START routing
+2018-11-20T23:34:20.193Z - debug: END routing
+2018-11-20T23:34:20.193Z - info: Loaded routing.
+2018-11-20T23:34:20.222Z - info: START seeder.
+2018-11-20T23:34:20.229Z - debug: 5 products seeded
+2018-11-20T23:34:20.232Z - debug: 4 orders seeded
+2018-11-20T23:34:20.232Z - info: END Seeder. Sample data read and verified.
+2018-11-20T23:34:35.643Z - debug: GET /
+2018-11-20T23:34:38.213Z - debug: GET /product
+2018-11-20T23:34:41.375Z - debug: GET /product/edit/1
+2018-11-20T23:34:41.378Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T23:34:41.379Z - info: RETURNING VIEW FOR{"_id":1,"productKey":"pendrive","description":"place to store memory or data","unitPrice":90,"MFD":"11/13/2018","EXD":"NO EXPIRY"}
+2018-11-20T23:35:02.559Z - debug: POST /product/save/1
+2018-11-20T23:35:02.592Z - info: Handling SAVE request [object Object]
+2018-11-20T23:35:02.592Z - info: Handling SAVING ID=1
+2018-11-20T23:35:02.594Z - info: ORIGINAL VALUES {"_id":1,"productKey":"pendrive","description":"place to store memory or data","unitPrice":90,"MFD":"11/13/2018","EXD":"NO EXPIRY"}
+2018-11-20T23:35:02.594Z - info: UPDATED VALUES: {"productKey":"pendrive","description":"i dono","unitPrice":"99","MFD":"2018-11-16","EXD":"2018-11-30"}
+2018-11-20T23:35:02.595Z - info: SAVING UPDATED product {"_id":1,"productKey":"pendrive","description":"i dono","unitPrice":99,"MFD":"11/13/2018","EXD":"NO EXPIRY"}
+2018-11-20T23:35:02.607Z - debug: GET /product
+2018-11-20T23:39:53.209Z - info: Environment variables loaded.
+2018-11-20T23:39:53.223Z - debug: START routing
+2018-11-20T23:39:53.266Z - debug: END routing
+2018-11-20T23:39:53.266Z - info: Loaded routing.
+2018-11-20T23:39:53.308Z - info: START seeder.
+2018-11-20T23:39:53.315Z - debug: 5 products seeded
+2018-11-20T23:39:53.319Z - debug: 4 orders seeded
+2018-11-20T23:39:53.319Z - info: END Seeder. Sample data read and verified.
+2018-11-20T23:40:04.550Z - debug: GET /
+2018-11-20T23:40:07.491Z - debug: GET /product
+2018-11-20T23:40:09.791Z - debug: GET /product/edit/1
+2018-11-20T23:40:09.794Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T23:40:09.799Z - info: RETURNING VIEW FOR{"_id":1,"productKey":"pendrive","description":"place to store memory or data","unitPrice":90,"MFD":"11/13/2018","EXD":"NO EXPIRY"}
+2018-11-20T23:40:34.395Z - debug: POST /product/save/1
+2018-11-20T23:40:34.436Z - info: Handling SAVE request [object Object]
+2018-11-20T23:40:34.437Z - info: Handling SAVING ID=1
+2018-11-20T23:40:34.437Z - info: ORIGINAL VALUES {"_id":1,"productKey":"pendrive","description":"place to store memory or data","unitPrice":90,"MFD":"11/13/2018","EXD":"NO EXPIRY"}
+2018-11-20T23:40:34.438Z - info: UPDATED VALUES: {"productKey":"pen","description":"used to write","unitPrice":"9089","MFD":"2018-11-02","EXD":"2018-11-30"}
+2018-11-20T23:40:34.438Z - info: SAVING UPDATED product {"_id":1,"productKey":"pen","description":"used to write","unitPrice":9089,"MFD":"2018-11-02","EXD":"2018-11-30"}
+2018-11-20T23:40:34.445Z - debug: GET /product
+2018-11-20T23:41:11.521Z - debug: GET /product/create
+2018-11-20T23:41:11.522Z - info: Handling GET /create[object Object]
+2018-11-20T23:41:11.527Z - debug: {"productKey":"product","description":"description","unitPrice":9.99}
+2018-11-20T23:41:52.186Z - debug: POST /product/save
+2018-11-20T23:41:52.189Z - info: Handling POST [object Object]
+2018-11-20T23:41:52.189Z - debug: {"_id":"6","productKey":"pen","description":"i dono","unitPrice":"11111","MFD":"1996-08-12","EXD":"1998-12-12"}
+2018-11-20T23:41:52.190Z - info: NEW ID 6
+2018-11-20T23:41:52.196Z - info: SAVING NEW product {"productKey":"pen","description":"i dono","unitPrice":11111,"_id":6,"MFD":"1996-08-12T00:00:00.000Z","EXD":"1998-12-12T00:00:00.000Z"}
+2018-11-20T23:41:52.200Z - debug: GET /product
